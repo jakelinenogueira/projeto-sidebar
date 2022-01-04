@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+:root {
+  --body-bg-color: #dce4e3;
+  --green: #18c29c;
+  --light-green: #8ed7c6;
+	--light-grey: #dce4e3;
+  --text-color: #084236;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+b, span, p, h2, h3{
+  font-family: Poppins;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+#sidebar {
+  min-width: 220px;
+  max-width: 220px;
+  height: 100vh;
+  display: block;
+  float: left;
+  padding-top: 20px;
+  background-color: var(--green);
+}
+
+.sidebar-header {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.sidebar-header a img {
+   padding-left: 5px;
+   padding-right: 10px;
+}
+
+.list{
+  padding-left: 20px;
+}
+
+
+#sidebar li a{
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  padding: 10px 5px;
+}
+
+#sidebar li img{
+  padding-right: 10px;
+}
+
+#sidebar li h3{
+  color: var(--text-color);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.button-search {
+  background-color: var(--light-green);
+  border-radius: 10px;
+}
+
+.sidebar-footer{
+  max-width: 200px;
+  min-width: 200px;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  background-color: var(--light-green);
+}
+
+.text{
+  padding-left: 10px;
+  color: var(--text-color);
+}
+
+.text h2{
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.text h3{
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.sidebar-footer img{
+    width: 40px;
+    height: 30px;
+    border-radius: 7px;
+}
+
+.sidebar-footer a img{
+  width: 20px;
+  height: 20px;
+  padding-left: 20px;
+  
+}
+
+.main h2{
+  display: flex;
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#sidebar.sidebar-hide{
+  max-width: 70px;
+  min-width: 70px;
+}
+
+
+#sidebar.sidebar-hide .modal-hide{
+  display: none;
+}
+
+
+#sidebar.sidebar-hide .sidebar-footer{
+  max-width: 50px;
+  min-width: 50px;
+}

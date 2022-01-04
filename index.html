@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sidebar</title>
+</head>
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+      <div class="sidebar-header">
+        <img class="modal-hide" src="./images/logo.svg" alt="Logotipo">
+        <a href="#"
+          onclick="toggleSidebar()">
+          <img src="./images/menu.svg" alt="Ícone de menu">
+        </a>
+      </div>
+      <ul class="list">
+        <li>
+          <a class="button-search" href="#">
+            <img src="./images/search.svg" alt="Ícone lupa">
+            <h3 class="modal-hide">Buscar</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/grid.svg" alt="Ícone de dashboard">
+            <h3 class="modal-hide">Dashboard</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/pet.svg" alt="Ícone de pata de cachorro">
+            <h3 class="modal-hide">Pets</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/user.svg" alt="Ícone de usuário">
+            <h3 class="modal-hide">Clientes</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/vet.svg" alt="Ícone de veterinário">
+            <h3 class="modal-hide">Vets</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/settings.svg" alt="Ícone de configurações">
+            <h3 class="modal-hide">Ajustes</h3>
+          </a>
+        </li>
+      </ul>
+      <div class="sidebar-footer">
+        <img class="modal-hide" src="./images/photo.jpg" alt="Foto de uma mulher com cachorro">
+        <div class="text modal-hide">
+          <h2>Eleonor Pena</h2>
+          <h3>Veterinária</h3>
+        </div>
+        <a href="#">
+          <img src="./images/log-out.svg" alt="Ícone de seta entrar">
+        </a>
+      </div>
+    </nav>
+    <div class="main">
+      <h2>Dashboard</h2>
+    </div>
+  </div>
+  
+  <script src="./script.js"></script>
+
+</body>
+</html>
